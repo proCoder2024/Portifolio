@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height:10vh;
+    padding: 2vw 2vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin: 1vw;
+}
+
+ul li a{
+    font-weight: bold;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(235, 108, 108);
+}
+a{
+    text-decoration: none;
+}
+/* header done  */
+
+.big-box{
+    height:90vh;
+    display: flex;
+    padding:4vw 2vw;
+}
+.left{
+    width: 60%;
+    padding: 5vw 2vw;
+}
+.left h2 span{
+    color: darkslategrey;
+}
+.left h2{
+    font-size: 5vw;
+    padding: 1vw 2vw;
+}
+
+.left h4{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1vw 2vw ;
+}
+
+
+.bio{
+    padding: 2vw 2vw;
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+
+.btn{
+    padding: 1vw ;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    border: 2px solid black;
+    border-radius: .5vw;
+}
+.btn a{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.btn a:hover{
+    text-decoration: underline;
+    color:  rgb(197, 93, 93);
+}
+
+
+.right{
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.right img{
+    height: 400px;
+    width: 400px;
+}
+
+
+/* landing page done  */
+
+.about{
+    height: 170vh;
+    padding:0px 70px;
+}
+.about-head{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 20%;
+    margin-left: 40%;
+}
+.up{
+    display: flex;
+    margin: 20px 0px;
+}
+.up-left{
+    width: 50%;
+}
+.up-left h4{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.perso-data{
+    padding: 20px;
+    text-align: justify;
+    line-height: 25px;
+    font-variant: small-caps;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.details ol li{
+    padding: 8px;
+    list-style-type: square;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 14px;
+}
+.details ol{
+    padding: 5px 20px;
+}
+.social{
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.up-right{
+    width: 50%;
+}
+
+.up-right h4{
+    font-size: 20px;
+    padding: 10px;
+}
+#file{
+    height: 14px;
+    width: 80%;
+    border-radius: 0;
+    display: block;
+    margin: 10px;
+}
+.pl{
+    margin-left: 10px;
+}
+.num{
+    display: inline;
+}
+div.pro{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.count{
+    padding-left: 30px;
+}
+.k{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+}
+.icon img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.down{
+    display:flex ;
+    margin: 20px 0px;
+}
+.down-left{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.down-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.down-right img{
+ height: 600px;
+}
+.list-sin{
+    display: flex;
+    margin: 20px;
+}
+
+.list-sin .note{
+    padding: 5px;
+    width: 90%;
+}
+.list-sin .note h4{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.st{
+    height: 50px;
+    width: 50px;
+    width: 10%;
+    margin-top: 10px;
+}
+
+/* about page done  */
+.portfolio{
+    height: 155vh;
+    padding: 0px 70px;
+}
+.hola{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.hola img{
+    height: 200px;
+    width: 300px;
+    border-radius: 1px;
+}
+.hola div{
+    height: 200px ;
+    width: 300px;
+    border-radius: 1px;
+    margin:0px 10px;
+}
+.quot{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+
+/* portfolio page done  */
+
+.i-do{
+    height: 100vh;
+    padding: 0px 70px;
+}
+
+.coco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 20px;
+}
+.boxox{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+.boxox img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.boxox h3{
+    text-align: center;
+    margin: 5px;
+}
+.boxox p{
+    text-align: justify;
+    font-size: 15px;
+    padding: 5px 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+.ml{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* done  */
+
+
+.next{
+    height: 90vh;
+    padding: 0px 70px;
+}
+.wht-next{
+    text-align: justify;
+    margin: 2px 60px;
+    border: 1px solid black;
+    line-height: 60px;
+}
+.dualbtn{
+    margin: 2px 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn22{
+    margin: 10px;
+    padding: 10px 20px;
+}
+.last-part{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 120px;
+}
+.last-line{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 1px;
+}
+
+.last-line h4,p{
+    padding: 20px;
+}
+
+
+.last-line h4{
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footerok{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
